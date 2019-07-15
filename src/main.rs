@@ -25,10 +25,6 @@ fn set_up_arguments(url: &mut Option<String>, download: &mut bool) {
 }
 
 fn get_url(url: &Option<String>, download: bool) {
-    if url == &None {
-        println!{"please consult --help for entering a url"};
-        return;
-    }
     println!("[*] Connecting to {}", url.as_ref().unwrap());
     let mut res = reqwest::get(url.as_ref().unwrap().as_str()).expect("[!] Error connecting to url");
     if !download {
@@ -40,7 +36,7 @@ fn get_url(url: &Option<String>, download: bool) {
 }
 
 fn get_file_name(url: &String) -> String {
-    let re = Regex::new(r"(/.+/)(?P<filename>.+)").expect("[!] regex creation error");
+    let re = Regex::new(r"(/.*/)(?P<filename>.+)").expect("[!] regex creation error");
     let caps = re.captures(url.as_str()).expect("[!] unable to parse file name");
     caps["filename"].to_string()
 }
@@ -73,5 +69,14 @@ fn download_file(name: String, res: &mut reqwest::Response) {
             inner: res,
         };
         copy(&mut source, &mut file);
+    } else {
+        let mut pb = ProgressBar::new_spinner();
+        let mut file = File::create(&name).expect("file creation error");
+        let mut source = DownloadProgress {
+            progress_bar: pb,
+            inner: res,
+        };
+        copy(&mut source, &mut file);
     }
+    println!("[*] downloaded {}", &name)
 }
