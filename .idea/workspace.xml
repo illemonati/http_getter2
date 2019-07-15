@@ -39,6 +39,8 @@
       <change beforePath="$PROJECT_DIR$/../hello_world/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../hello_world/Cargo.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hello_world/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello_world/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../http_getter" beforeDir="false" afterPath="$PROJECT_DIR$/../http_getter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rocket/ip/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../rocket/ip/Cargo.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rocket/ip/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../rocket/ip/src/main.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tutorial/hello_cargo/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../tutorial/hello_cargo/Cargo.toml" afterDir="false" />
@@ -51,16 +53,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cargo.toml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.rs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="751">
@@ -77,8 +79,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Cargo.toml" />
         <option value="$PROJECT_DIR$/src/main.rs" />
+        <option value="$PROJECT_DIR$/Cargo.toml" />
       </list>
     </option>
   </component>
@@ -140,12 +142,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563085403917</updated>
-      <workItem from="1563085405416" duration="7422000" />
+      <workItem from="1563085405416" duration="8428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7422000" />
+    <option name="totallyTimeSpent" value="8428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="34" width="1920" height="1046" extended-state="6" />
@@ -177,17 +179,17 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Cargo.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.rs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="751">
           <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cargo.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>

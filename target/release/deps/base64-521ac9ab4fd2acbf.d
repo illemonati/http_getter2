@@ -1,0 +1,14 @@
+/root/test/rust/http_getter2/target/release/deps/base64-521ac9ab4fd2acbf.rmeta: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/chunked_encoder.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/display.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/tables.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/write/mod.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/write/encoder.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/encode.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/decode.rs
+
+/root/test/rust/http_getter2/target/release/deps/libbase64-521ac9ab4fd2acbf.rlib: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/chunked_encoder.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/display.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/tables.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/write/mod.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/write/encoder.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/encode.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/decode.rs
+
+/root/test/rust/http_getter2/target/release/deps/base64-521ac9ab4fd2acbf.d: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/lib.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/chunked_encoder.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/display.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/tables.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/write/mod.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/write/encoder.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/encode.rs /root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/decode.rs
+
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/lib.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/chunked_encoder.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/display.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/tables.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/write/mod.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/write/encoder.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/encode.rs:
+/root/.cargo/registry/src/github.com-1ecc6299db9ec823/base64-0.10.1/src/decode.rs:
