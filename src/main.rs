@@ -6,6 +6,7 @@ use std::fs::File;
 use std::io::{self, Read, Write, copy};
 use regex::Regex;
 use indicatif::{ProgressBar, ProgressStyle};
+use reqwest::header::USER_AGENT;
 
 fn main() {
     let mut url = None;
@@ -26,7 +27,11 @@ fn set_up_arguments(url: &mut Option<String>, download: &mut bool) {
 
 fn get_url(url: &Option<String>, download: bool) {
     println!("[*] Connecting to {}", url.as_ref().unwrap());
-    let mut res = reqwest::get(url.as_ref().unwrap().as_str()).expect("[!] Error connecting to url");
+    let mut res = reqwest:: Client::new()
+        .get(url.as_ref().unwrap().as_str())
+        .header(USER_AGENT, "STONKS")
+        .send()
+        .expect("[!] Error connecting to url");
     if !download {
         println!("{}", &res.text().expect("[!] Error converting response body to text, try downloading !"));
     } else {
@@ -36,7 +41,7 @@ fn get_url(url: &Option<String>, download: bool) {
 }
 
 fn get_file_name(url: &String) -> String {
-    let re = Regex::new(r"(/.*/)(?P<filename>.+)").expect("[!] regex creation error");
+    let re = Regex::new(r"(/.*/)(?P<filename>[^/]+)").expect("[!] regex creation error");
     let caps = re.captures(url.as_str()).expect("[!] unable to parse file name");
     caps["filename"].to_string()
 }
